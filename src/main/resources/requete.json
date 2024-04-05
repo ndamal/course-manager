@@ -1,0 +1,24 @@
+// http://localhost:8484/swagger-ui/index.html
+
+//POST http://localhost:8484/courses
+{
+  "name": "string",
+  "date": "2024-03-27",
+  "numberUnique": 55,
+  "partants": [
+    {
+      "nom": "Canche Ouerz"
+    },
+    {
+      "nom": "Pozat martin"
+    },
+    {
+      "nom": "Fapfer"
+    }
+  ]
+}
+
+// http://localhost:8484/courses/7/partants
+{
+  "nom": "SILVER"
+}
